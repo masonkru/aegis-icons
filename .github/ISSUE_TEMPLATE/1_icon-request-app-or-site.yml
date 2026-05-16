@@ -87,8 +87,8 @@ body:
     attributes:
       value: |
         _Add either:_
-        - **Prefered option #1:** Link to documentation page / announcement post related to TOTP / Google Authenticator 2FA.
-        - **Prefered option #2:** Link to 2FA Directory's GitHub pull request page for the service, [search them here](https://github.com/2factorauth/twofactorauth/pulls?q=is%3Apr).
+        - **Preferred option #1:** Link to documentation page / announcement post related to TOTP / Google Authenticator 2FA.
+        - **Preferred option #2:** Link to 2FA Directory's GitHub pull request page for the service, [search them here](https://github.com/2factorauth/twofactorauth/pulls?q=is%3Apr).
         - **If either preferred option was unavailable:** Screenshot proof of the TOTP / Google Authenticator 2FA settings page or login prompt.
           - :x: **NO screenshots from Aegis app, period!** Only from the service you have the account on.
           - _Remember to censor sensitive info (2FA seed codes, email addresses, other personal information)._
@@ -98,7 +98,7 @@ body:
         > [!IMPORTANT]
         > Documentation link or a screenshot of the 2FA/MFA settings page (or login prompt) you provided **MUST CLEARLY STATE** either:
         > - It supports the TOTP _(time‑based one‑time password)_ or HOTP _(HMAC‑based one‑time password)_ protocol.
-        > - It recommends Google Authenticator, Aegis, or another authenticator app that supports TOTP or HOTP (for example: Microsoft Authenticator, LastPass Authenticator, Duo Mobile).
+        > - It recommends Google Authenticator, Aegis, or other authenticator apps that supports TOTP or HOTP (for example: Microsoft Authenticator, LastPass Authenticator, Duo Mobile).
         > - Shows the QR code for TOTP setup.
         >
         > **Otherwise we cannot be sure if 2FA/MFA is actually compatible with Aegis.**
