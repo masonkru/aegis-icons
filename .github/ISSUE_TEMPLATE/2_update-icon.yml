@@ -56,10 +56,11 @@ body:
     id: update-reason
     attributes:
       label: Reason for update
-      description: Please write explanation on the "Anything else?" section _if_ you selected "brand changed their name" or "other".
+      description: |
+        **Please write explanation on the "Anything else?" section** if you selected either `Brand overhaul (a corporate name change)` or `Other`.
       options:
         - Redesigned logo or other brand update
-        - Brand changed their name
+        - Brand overhaul (a corporate name change)
         - Other
     validations:
       required: true
@@ -107,7 +108,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        :point_up: **Required** if you selected `Brand changed their name` or `Other` as reason for update. Explain in detail, so we understand the situation (for example: what was the change, when this change approximately happen).
+        :point_up: **REQUIRED** if you selected `Brand overhaul (a corporate name change)` or `Other` as reason for update. Explain in detail, so we understand the situation (for example: what was the change, when this change approximately happen, any related news coverage links).
         
         <!-- SECTION BREAK --> <br> <!-- SECTION BREAK -->
 
