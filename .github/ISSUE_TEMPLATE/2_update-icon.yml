@@ -59,7 +59,7 @@ body:
       description: |
         **Please write explanation on the "Anything else?" section** if you selected either `Brand overhaul (a corporate name change)` or `Other`.
       options:
-        - Redesigned logo or other brand update
+        - Redesigned logo or brand update
         - Brand overhaul (a corporate name change)
         - Other
     validations:
