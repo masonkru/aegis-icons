@@ -142,5 +142,5 @@ body:
           required: true
         - label: _If I added a proof of the Aegis-compatible 2FA,_ then I checked that [documentation link or screenshot is acceptable](#important-about-proof).
           required: true
-        - label: I acknowledge that I rushed and **did not** follow the instructions or answer the above checkboxes truthfully."
+        - label: I acknowledge that I rushed and **did not** follow the instructions or answer the above checkboxes truthfully.
           required: false
