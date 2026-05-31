@@ -103,7 +103,7 @@ body:
         >
         > **Otherwise we cannot be sure if 2FA/MFA is actually compatible with Aegis.**
         
-        _The "proof of the Aegis-compatible 2FA" field is optional, but **if we cannot find info about 2FA/MFA from the official website, Google nor [2FA Directory](https://2fa.directory/int/)**, then we might **reject the request** (we give you possibility for reopening though by sending the proof via comment). If the proof is lacking, we give you 30 days to response before closing the issue._
+        _The "proof of the Aegis-compatible 2FA" field is optional, but **if we cannot find info about 2FA/MFA from the official website, search engines nor [2FA Directory](https://2fa.directory/int/)**, then we might **reject the request** (we give you possibility for reopening though by sending the proof via comment). If the proof is lacking, we give you 30 days to response before closing the issue._
         
         <!-- SECTION BREAK --> <br> <!-- SECTION BREAK -->
 
