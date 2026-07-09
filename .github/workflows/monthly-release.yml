@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
 
 env:
-  zipname: aegis-icons.zip
+  zipname: icons-aegis.zip
 
 jobs:
   release:
