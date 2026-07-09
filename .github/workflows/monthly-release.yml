@@ -1,5 +1,5 @@
 name: Release
-run-name: Release @ Aegis Icons - ${{ github.sha }}
+run-name: Release @ Icons Aegis - ${{ github.sha }}
 
 on:
   schedule:
@@ -191,9 +191,9 @@ jobs:
       - name: Generate Release Notes
         run: |
           cat <<EOF > release_notes.md
-          ### :package: [Latest ZIP Download](https://github.com/aegis-icons/aegis-icons/releases/latest/download/aegis-icons.zip)
+          ### :package: [Latest ZIP Download](https://github.com/masonkru/aegis-icons/releases/latest/download/icons-aegis.zip)
 
-          #### :memo: Help: [install](https://github.com/aegis-icons/aegis-icons/blob/master/FAQ.md#with-icon-pack) or [update](https://github.com/aegis-icons/aegis-icons/blob/master/FAQ.md#how-to-update-the-icon-pack)
+#          #### :memo: Help: [install](https://github.com/aegis-icons/aegis-icons/blob/master/FAQ.md#with-icon-pack) or [update](https://github.com/aegis-icons/aegis-icons/blob/master/FAQ.md#how-to-update-the-icon-pack)
 
           ---
 
