@@ -188,15 +188,32 @@ jobs:
 #          ${{ steps.renamed_icons.outputs.list }}
 #          EOF
           
+      - name: Generate Icon Changelog
+        run: |
+          PREVIOUS_TAG=$(git tag --sort=-creatordate | head -n 1)
+          echo "## ✨ New icons" > changelog.md
+          if [ -n "$PREVIOUS_TAG" ]; then
+            git diff --name-status $PREVIOUS_TAG HEAD -- icons/ \
+              | grep "^A" \
+              | sed 's#A[[:space:]]*icons/##;s#.svg##' \
+              | sed 's#^#- #' >> changelog.md || true
+          else
+            echo "- Initial release" >> changelog.md
+          fi
+          
       - name: Generate Release Notes
         run: |
           cat <<EOF > release_notes.md
-          ### :package: [Latest ZIP Download](https://github.com/masonkru/aegis-icons/releases/latest/download/icons-aegis.zip)
+          ## 📦 Aegis Icons
+
+          ### :package: Download
+          [Latest ZIP Download](https://github.com/masonkru/aegis-icons/releases/latest/download/icons-aegis.zip)
 
           ---
 
-          Release notes coming soon.
           EOF
+
+          cat changelog.md >> release_notes.md
 
       - name: Create a GitHub release
         uses: softprops/action-gh-release@v0.1.15
