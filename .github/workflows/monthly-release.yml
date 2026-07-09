@@ -193,8 +193,6 @@ jobs:
           cat <<EOF > release_notes.md
           ### :package: [Latest ZIP Download](https://github.com/masonkru/aegis-icons/releases/latest/download/icons-aegis.zip)
 
-#          #### :memo: Help: [install](https://github.com/aegis-icons/aegis-icons/blob/master/FAQ.md#with-icon-pack) or [update](https://github.com/aegis-icons/aegis-icons/blob/master/FAQ.md#how-to-update-the-icon-pack)
-
           ---
 
           Release notes coming soon.
