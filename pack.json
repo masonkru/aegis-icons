@@ -1,7 +1,7 @@
 {
     "uuid": "c1018b93-4e8c-490a-b575-30dde62a833e",
     "name": "aegis-icons",
-    "version": 0,
+    "version": 20260701,
     "icons": [
         {
             "name": "(ISC)2",
@@ -8046,6 +8046,22 @@
         {
             "name": "Video",
             "filename": "icons/3_Generic/Video.svg",
+            "category": null,
+            "issuer": [
+                "Video"
+            ]
+        },
+        {
+            "name": "OMV",
+            "filename": "icons/3_Generic/OMV.svg",
+            "category": null,
+            "issuer": [
+                "Video"
+            ]
+        },
+        {
+            "name": "Pangolin",
+            "filename": "icons/3_Generic/pangolin.svg",
             "category": null,
             "issuer": [
                 "Video"
