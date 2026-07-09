@@ -1,3 +1,14 @@
+## Fork
+
+This project is based on:
+- https://github.com/aegis-icons/aegis-icons
+
+Original project by the aegis-icons contributors.
+Additional icons and modifications by masonkru.
+
+---
+<br><br><br>
+
 <p align="center">
     <a href="https://aegis-icons.github.io">
         <img src="https://raw.githubusercontent.com/aegis-icons/design-assets/master/readme-banner.svg" width="350" />
