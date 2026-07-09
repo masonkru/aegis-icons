@@ -6,6 +6,11 @@ This project is based on:
 Original project by the aegis-icons contributors.
 Additional icons and modifications by masonkru.
 
+## Additional icon credits
+
+- Icons provided by [selfh.st/icons](https://selfh.st/icons) ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)):
+  - Pangolin
+  - OpenMediaVault
 ---
 <br><br><br>
 
