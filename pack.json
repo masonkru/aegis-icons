@@ -1,7 +1,7 @@
 {
-    "uuid": "c1018b93-4e8c-490a-b575-30dde62a833e",
-    "name": "aegis-icons",
-    "version": 20260701,
+    "uuid": "2c48d047-1bde-451c-ba25-a4e8bdeaaad5",
+    "name": "icons-aegis",
+    "version": 0,
     "icons": [
         {
             "name": "(ISC)2",
@@ -3868,6 +3868,14 @@
             ]
         },
         {
+            "name": "OMV",
+            "filename": "icons/1_Primary/OMV.svg",
+            "category": null,
+            "issuer": [
+                "OMV"
+            ]
+        },
+        {
             "name": "ONLYOFFICE",
             "filename": "icons/1_Primary/ONLYOFFICE.svg",
             "category": null,
@@ -6692,14 +6700,6 @@
             ]
         },
         {
-            "name": "OMV",
-            "filename": "icons/1_Primary/OMV.svg",
-            "category": null,
-            "issuer": [
-                "omv"
-            ]
-        },
-        {
             "name": "one.com",
             "filename": "icons/1_Primary/one.com.svg",
             "category": null,
@@ -6716,19 +6716,19 @@
             ]
         },
         {
+            "name": "pangolin",
+            "filename": "icons/1_Primary/pangolin.svg",
+            "category": null,
+            "issuer": [
+                "pangolin"
+            ]
+        },
+        {
             "name": "paste.gg",
             "filename": "icons/1_Primary/paste.gg.svg",
             "category": null,
             "issuer": [
                 "paste.gg"
-            ]
-        },
-        {
-            "name": "Pangolin",
-            "filename": "icons/1_Primary/Pangolin.svg",
-            "category": null,
-            "issuer": [
-                "pangolin"
             ]
         },
         {
