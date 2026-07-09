@@ -6692,6 +6692,14 @@
             ]
         },
         {
+            "name": "OMV",
+            "filename": "icons/1_Primary/OMV.svg",
+            "category": null,
+            "issuer": [
+                "omv"
+            ]
+        },
+        {
             "name": "one.com",
             "filename": "icons/1_Primary/one.com.svg",
             "category": null,
@@ -6713,6 +6721,14 @@
             "category": null,
             "issuer": [
                 "paste.gg"
+            ]
+        },
+        {
+            "name": "Pangolin",
+            "filename": "icons/1_Primary/Pangolin.svg",
+            "category": null,
+            "issuer": [
+                "pangolin"
             ]
         },
         {
@@ -8046,22 +8062,6 @@
         {
             "name": "Video",
             "filename": "icons/3_Generic/Video.svg",
-            "category": null,
-            "issuer": [
-                "Video"
-            ]
-        },
-        {
-            "name": "OMV",
-            "filename": "icons/3_Generic/OMV.svg",
-            "category": null,
-            "issuer": [
-                "Video"
-            ]
-        },
-        {
-            "name": "Pangolin",
-            "filename": "icons/3_Generic/pangolin.svg",
             "category": null,
             "issuer": [
                 "Video"
